@@ -1,5 +1,5 @@
 # ToDo-App
-This is an simple app ,This is for daily tasks , i build three screens(Tasks-Done-Archive) you can add your task from any screen it will added only in Task screen ,after you finshed your task you can add it to done screen ,if you don't have time you can add task to archive screen to do it after that, if  yuo want to delete task you can pass move task anny direction(right-left) it will remove [In this app I use Local Database (SQLlite) and StateMangement(Cubit)]
+This is an simple app ,This is for daily tasks , i build three screens(Tasks-Done-Archive) you can add your task from any screen it will added only in Task screen ,after you finshed your task you can add it to done screen ,if you don't have time you can add task to archive screen to do it after that, if  you want to delete task you can pass move task anny direction(right-left) it will remove [In this app I use Local Database (SQLlite) and StateMangement(Cubit)]
 
 # OutPut
 <p style="font-size:16px">Task screen before and after adding tasks :</p><br>
