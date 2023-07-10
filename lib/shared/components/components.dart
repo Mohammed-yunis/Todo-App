@@ -1,9 +1,6 @@
-import 'package:conditional_builder_null_safety/conditional_builder_null_safety.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:todo/shared/cubit/cubit.dart';
-
-import 'constants.dart';
 
 Widget textfield(
     {required String lablestr,
@@ -112,7 +109,7 @@ Widget container(Map model, context,
       ),
     ),
     onDismissed: (direction){
-     AppCubit().deleteDatabase(id: model['id']);
+     AppCubit.get(context).deleteDatabase(id: model['id']);
     },
   );
 }
